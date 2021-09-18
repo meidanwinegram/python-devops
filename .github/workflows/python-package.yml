@@ -33,7 +33,7 @@ jobs:
     - name: Push to docker Hub
       uses: docker/build-push-action@v2.4.0
       with:
-      username: ${{ secrets.DOCKER_USRNAME }}
-      password: ${{ secrets.DOCKER_PASSWORD }}
-      repository: docker push mdndkr0050/devopswithpy
-      tag_with_ref: true
+        username: ${{ secrets.DOCKER_USRNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        repository: docker push mdndkr0050/devopswithpy
+        tag_with_ref: true
